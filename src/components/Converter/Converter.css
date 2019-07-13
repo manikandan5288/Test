@@ -1,0 +1,21 @@
+.converter-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h2 + label {
+    display: block;
+    padding: 10px 0px;
+}
+
+.converter-container input, select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(119, 119, 119, 0.5);
+}
+
+.readOnly{
+  color: green;
+  border: none;
+  background: #ccc;
+}
