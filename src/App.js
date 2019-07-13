@@ -1,13 +1,16 @@
 import React from "react";
 import "./styles.css";
+import SearchCountry from "./components/SearchCountry/SearchCountry.js"
+import Converter from "./components/Converter/Converter.js"
 
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        <h1>Test</h1>
-        <div class="content-wrapper">Content</div>
-      </div>
+      <div className="container">
+        <SearchCountry />
+        <Converter />
+      </div >
+
     );
   }
 }
