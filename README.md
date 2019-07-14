@@ -9,4 +9,4 @@ To Run the application
 4. Auto matically it will open the application in the local browser
     > http://localhost:3000/
     
-Pre-requesties: latest version of node has to be installed in the local machine
+Pre-requesties: updated/latest version of node has to be installed in the local machine
